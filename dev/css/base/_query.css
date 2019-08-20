@@ -1,0 +1,21 @@
+.fixed-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 5px;
+  background: gray;
+  z-index: 10000; }
+  @media (min-width: 1024px) {
+    .fixed-bar {
+      background-color: #D50F25; } }
+  @media (max-width: 1023px) {
+    .fixed-bar {
+      background-color: #3369E8; } }
+  @media (max-width: 750px) {
+    .fixed-bar {
+      background-color: #EEB211; } }
+  @media (max-width: 450px) {
+    .fixed-bar {
+      background-color: #009925; } }
